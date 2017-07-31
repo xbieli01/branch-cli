@@ -1,0 +1,49 @@
+{
+    "HELLO": "hello {{value}}",
+    "LANG":"SK",
+    "ABOUT":"About",
+    "WORK":"Work",
+    "PROJECTS":"Projects",
+    "CONTACT":"Contact",
+    "about":{
+        "FIELD":"Complex IT solutions",
+        "RESUME":"I’m an application developer and programmer living in Bratislava, Slovakia. I make web applications based on .NET framework. As a frontend framework, I primary use javascript frameworks, currently Angular, but picking up a new framework or language isn’t a problem. I have extensive programing experience and I’m comfortable developing on the frontend or backend as well as setting up or managing infrastructure.",
+        "SKILLS":"Here are my short list of featured skills"
+    },
+    "projects":{
+        "CONTRIBUTION":"My Contribution",
+        "OVERVIEW":"Overview",
+        "zsd":{
+            "NAME":"ZÁPADOSLOVENSKÁ DISTRIBUČNÁ - APPLICATION",
+            "UID":"User Interface Design",
+            "BDI":"Backend design and implementation",
+            "ITS":"Integration to SAP environment",
+            "ADM":"Administration",
+            "ABOUT":"Application is targeted to customers of ZSD in West Slovakia region and currently is it possible to search for actual failures and planned outages. There is an option to report new electricity outage. This application is created with Xamarin with backed written in ASP.NET Web API. There was made integration with SAP system. There is still a continuous improvement process."
+        },
+        "ben":{
+            "NAME":"Project Benátky",
+            "COU":"Team-leading",
+            "BIZ":"Analysis and solutions design",
+            "PRG":"Development of core, Web API layer and Angular frontend",
+            "INT":"Integration to bank core systems",
+            "ABOUT":"I was responsible for leading team of bank front- and back-end developers on internal bank system used to manage deposits and loans of clients. I was actively involved in development and analysis on both front- and back-end tasks. During these tasks I was actively communicate with business analysts and business people itself. This application was created as omnichannel solution based on ASP.NET Web API and Angular."
+        },
+        "pick":{
+            "NAME":"Pick-by-voice",
+            "REA":"JavaScript driven solution",
+            "BIZ":"Cooperation with Nuance company",
+            "PRG":"Cooperation on core development in C++",
+            "INT":"Integration with voice recognition, voice generation and warehouse systems",
+            "ABOUT":"Application is like personal assistant for warehouse employees, which offers hands-free control. This solution used Phonegap-like approach, where are hardware parts controlled by JavaScript. Application was running under Windows CE on Motorola devices."
+        },
+        "svk":{
+            "NAME":"Project Slovensko.sk",
+            "COU":"Team-leading of developers, graphic designers and testers",
+            "BIZ":"Analysis, design and implementation of solutions",
+            "PRG":"Improvements of internal CMS system",
+            "INT":"Integration to various external systems",
+            "ABOUT":"On this project I was responsible for team-leading of developers, graphic designers and testing team. Goal of this project was to create portal solution for various services and knowledge base for citizens of Slovak republic. I was creating integration to external services, data boxes, single sign on authentication and content search based on SharePoint. Application was developed according to the latest trends and technologies."
+        }
+    }
+}

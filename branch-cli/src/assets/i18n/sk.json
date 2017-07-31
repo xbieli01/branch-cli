@@ -1,0 +1,49 @@
+{
+    "HELLO": "ahoj {{value}}",
+    "LANG":"EN",
+    "ABOUT":"O firme",
+    "WORK":"Práca",
+    "PROJECTS":"Projekty",
+    "CONTACT":"Kontakt",
+    "about":{
+        "FIELD":"Komplexné IT riešenia",
+        "RESUME":"Som vývojár a programátor žijúci v Bratislave. Zaoberám sa prevažne webovými aplikáciami založenými na .NET základe. Ako prezentačnú vrstvu využívam javascriptové frameworky, aktuálne Angular. Nie je však problém s využitím ľubovoľného frameworku alebo jazyka. Mám dlhoročné skúsenosti s vývojom a nemám problém s vývojom všetkých vrstiev aplikácií ako aj s nastavením a správou infraštruktúry.",
+        "SKILLS":"V nasledujúcich oblastiach mám najširší rozhľad"
+    },
+    "projects":{
+        "CONTRIBUTION":"Pracoval som na",
+        "OVERVIEW":"Prehľad",
+        "zsd":{
+            "NAME":"ZÁPADOSLOVENSKÁ DISTRIBUČNÁ - APLIKÁCIA",
+            "UID":"Návrh používateľského rozhrania",
+            "BDI":"Návrh backendu a následná implementácia",
+            "ITS":"Integrácia na SAP",
+            "ADM":"Administrácia",
+            "ABOUT":"Aplikácia je určená všetkým odberateľom elektriny v regióne západného Slovenska a momentálne umožňuje vyhľadať informácie o aktuálnych poruchách a plánovaných odstávkach a aj nahlásiť nedostatok na distribučnej sieti elektriny. Aplikácia je vytvorená pomocou technológie Xamarin a ako backend bol použitý ASP.NET Web API. Bola zrealizovaná integrácia na SAP systém. Neustále sa pracuje na vylepšovaní aplikácie a pridávaní nových funkcionalít."
+        },
+        "ben":{
+            "NAME":"Projekt Benátky",
+            "COU":"Vedenie tímu programátorov",
+            "BIZ":"Analýza a návrh riešení",
+            "PRG":"Vývoj jadra, Web API vrstvy, Angular frontendu",
+            "INT":"Integrácia na bankové systémy",
+            "ABOUT":"Bol som zodpovedný za vedenie tímu frontendových a backendových vývojárov na internom bankovom systéme, ktorý slúži na správu depozitných a úverových produktov klientov. Aktívne so bol zapojený do vývoja a analýz úloh ako na frontende tak aj na backende aplikácie. Počas práce na aplikácii som aktívne komunikoval s biznis analytikmi a ľudmi z biznisu. Aplikácia bola navrhnutá ako omnichannel riešenie založené na ASP.NET Web API a Angular-e."
+        },
+        "pick":{
+            "NAME":"Pick-by-voice",
+            "REA":"Realizácia riešenia na princípe javascriptu",
+            "BIZ":"Spolupráca s firmou Nuance",
+            "PRG":"Spolupráca na vývoji jadra v C++",
+            "INT":"Integrácia na rozpoznávací systém, generovanie hlasu a skladové systémy",
+            "ABOUT":"Aplikácia funguje ako osobný asistent zamestnanca počas práce v sklade a umožnuje ovládanie zariadenia bez pomoci rúk. Riešenie bolo postavené na prístupe aké využíva Phonegap, kde sa pomocou javascriptu ovládajú hardvérové súčasti zariadenia. Aplikácia bežala na Windows CE na zariadeniach firmy Motorola."
+        },
+        "svk":{
+            "NAME":"Projekt Slovensko.sk",
+            "COU":"Vedenie tímu programátorov, grafikov a testerov",
+            "BIZ":"Analýza, návrh a vývoj riešení",
+            "PRG":"Rozvoj firemného CMS",
+            "INT":"Integrácia na rôznorodé externé systémy",
+            "ABOUT":"Na tomto projekte som bol som zodpovedný za vedenie tímu vývojárov, grafikov a testovacieho tímu. Cieľom projektu bolo vytvoriť portálové riešenie pre služby a zdroj informácií pre občanov Slovenskej republiky. Realizoval som integrácie na externé služby, dátové schránky, spoločnú autentifikáciu a vyhľadávanie nad obsahom pomocou SharePoint. Aplikácia bola navrhnutá s ohľadom na aktuálne trendy a posledné technológie."
+        }
+    }
+}

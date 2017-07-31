@@ -1,0 +1,228 @@
+<div id="wrapper">
+    <div style="max-width: 1280px;">
+        <!------------------------- NAVIGATION -->
+
+        <div id="navbarHolder">
+            <div id="navbar" class="hidden-md-down">
+                <ul>
+                    <li><a id="nav_about" class="ahref" href="#about">{{ 'ABOUT' | translate }}<span class="m_w">{{ 'ABOUT' | translate }}</span><span class="m_r">{{ 'ABOUT' | translate }}</span></a></li>
+                    <li><a id="nav_projects" class="ahref" href="#projects">{{ 'PROJECTS' | translate }}<span class="m_w">{{ 'PROJECTS' | translate }}</span><span class="m_r">{{ 'PROJECTS' | translate }}</span></a></li>
+                    <li><a id="nav_contact" class="ahref" href="#contact">{{ 'CONTACT' | translate }}<span class="m_w">{{ 'CONTACT' | translate }}</span><span class="m_r">{{ 'CONTACT' | translate }}</span></a></li>
+                    <li><a id="nav_lang" href="#" (click)="translate.use(translate.currentLang === 'sk' ? 'en' : 'sk')">{{ 'LANG' | translate }}<span class="m_w">{{ 'LANG' | translate }}</span><span class="m_r">{{ 'LANG' | translate }}</span></a></li>
+                </ul>
+            </div>
+            <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse hidden-lg-up">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about">{{ 'ABOUT' | translate }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">{{ 'PROJECTS' | translate }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">{{ 'CONTACT' | translate }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" (click)="translate.use(translate.currentLang === 'sk' ? 'en' : 'sk')">{{ 'LANG' | translate }}</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div id="container">
+            <div id="logo" title="Branch s.r.o." class="site-message-absolute">
+                <div id="btn_logo" class="nav_logo_w"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a id="logo_big" title="Branch s.r.o." href="#"></a>
+                </div>
+                <div class="col-md-8">
+                    <!------------------------- ABOUT -->
+                    <div id="about" class="container custom_well">
+                        <div class="row">
+                            <div id="headline" class="col-lg-6 col-md-12">
+                                <h1>Branch s.r.o.</h1>
+                                <h2><span>{{ 'about.FIELD' | translate }}</span><br /><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#98;&#x72;&#x61;&#x6e;&#x69;&#x73;&#x6c;&#x61;&#x76;&#46;&#98;&#105;&#101;&#x6c;&#x69;&#107;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x62;&#114;&#x61;&#110;&#105;&#x73;&#x6c;&#97;&#x76;&#x2e;&#x62;&#105;&#101;&#x6c;&#x69;&#107;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;</a></h2>
+                            </div>
+                            <div class="col-lg-6 hidden-md-down"><img src="images/my_picture.jpg" alt="Branislav Bielik | Portfolio" /></div>
+
+                            <div class="col-md-6 item_text">
+                                {{ 'about.RESUME' | translate }}
+                            </div>
+                            <div class="col-md-6 item_text">
+                                {{ 'about.SKILLS' | translate }}
+                                <ul>
+                                    <li><strong>C# .NET</strong></li>
+                                    <li><strong>JavaScript</strong></li>
+                                    <li><strong>CSS/HTML</strong></li>
+                                    <li><strong>Angular</strong></li>
+                                    <li><strong>MS SQL</strong></li>
+                                    <li><strong>Joomla/Drupal</strong></li>
+                                    <li><strong>Xamarin</strong></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="projects">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>{{ 'PROJECTS' | translate }}.</h2>
+                    </div>
+                </div>
+                <div class="container">
+                    <!-- PROJECT 1 -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/projects/zsd.png" alt="ZSD" class="img-fluid" />
+                        </div>
+                        <div class="col-md-4 item_text pprj">
+                            <h3>{{ 'projects.zsd.NAME' | translate }}</h3>
+
+                            <h4>{{ 'projects.CONTRIBUTION' | translate }}:</h4>
+                            <ul>
+                                <li>{{ 'projects.zsd.UID' | translate }}</li>
+                                <li>{{ 'projects.zsd.BDI' | translate }}</li>
+                                <li>{{ 'projects.zsd.ITS' | translate }}</li>
+                                <li>{{ 'projects.zsd.ADM' | translate }}</li>
+                            </ul>
+                            <a href="https://play.google.com/store/apps/details?id=sk.zsdis.app" title="ZSD application" target="_blank" class="btn_see_it_live">ZSD app</a>
+                        </div>
+                        <div class="col-md-4 item_text pprj">
+                            <h4>{{ 'projects.OVERVIEW' | translate }}:</h4>
+
+                            <p>{{ 'projects.zsd.ABOUT' | translate }}
+                            </p>
+                            <h5>Year: <span>2016, 2017</span></h5>
+                        </div>
+                    </div>
+                    <hr/>
+                    <!-- PROJECT 2 -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/projects/ben.png" alt="Benatky" class="img-fluid" />
+                        </div>
+                        <div class="col-md-4 item_text pprj">
+                            <h3>{{ 'projects.ben.NAME' | translate }}</h3>
+
+                            <h4>{{ 'projects.CONTRIBUTION' | translate }}:</h4>
+                            <ul>
+                                <li>{{ 'projects.ben.COU' | translate }}</li>
+                                <li>{{ 'projects.ben.BIZ' | translate }}</li>
+                                <li>{{ 'projects.ben.PRG' | translate }}</li>
+                                <li>{{ 'projects.ben.INT' | translate }}</li>
+                            </ul>
+                            <a href="https://www.softec.sk/softecon/prezentacie/ako-sme-postavili-benatky-alebo-sedem-veci-ktore-sme-urcite-nechceli/"
+                                title="Benatky" target="_blank" class="btn_see_it_live">Benatky</a>
+                        </div>
+                        <div class="col-md-4 item_text pprj">
+                            <h4>{{ 'projects.OVERVIEW' | translate }}:</h4>
+
+                            <p>{{ 'projects.zsd.ABOUT' | translate }}
+                            </p>
+                            <h5>Year: <span>2014 - 2017</span></h5>
+                        </div>
+                    </div>
+
+                    <hr/>
+                    <!-- PROJECT 3 -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/projects/pick.png" alt="Pick" class="img-fluid" />
+                        </div>
+                        <div class="col-md-4 item_text pprj">
+                            <h3>{{ 'projects.pick.NAME' | translate }}</h3>
+
+                            <h4>{{ 'projects.CONTRIBUTION' | translate }}:</h4>
+                            <ul>
+                                <li>{{ 'projects.pick.REA' | translate }}</li>
+                                <li>{{ 'projects.pick.BIZ' | translate }}</li>
+                                <li>{{ 'projects.pick.PRG' | translate }}</li>
+                                <li>{{ 'projects.pick.INT' | translate }}</li>
+                            </ul>
+                            <a href="https://www.dataphone.ch/de/loesungen/pick-by-voice--9" title="PickByVoice" target="_blank" class="btn_see_it_live">PickByVoice</a>
+                        </div>
+                        <div class="col-md-4 item_text pprj">
+                            <h4>{{ 'projects.OVERVIEW' | translate }}:</h4>
+
+                            <p>{{ 'projects.pick.ABOUT' | translate }}
+                            </p>
+                            <h5>Year: <span>2014</span></h5>
+                        </div>
+                    </div>
+
+                    <hr/>
+
+                    <!-- PROJECT 4 -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/projects/svk.png" alt="Slovensko" class="img-fluid" />
+                        </div>
+                        <div class="col-md-4 item_text pprj">
+                            <h3>{{ 'projects.svk.NAME' | translate }}</h3>
+
+                            <h4>{{ 'projects.CONTRIBUTION' | translate }}:</h4>
+                            <ul>
+                                <li>{{ 'projects.svk.COU' | translate }}</li>
+                                <li>{{ 'projects.svk.BIZ' | translate }}</li>
+                                <li>{{ 'projects.svk.PRG' | translate }}</li>
+                                <li>{{ 'projects.svk.INT' | translate }}</li>
+                            </ul>
+                            <a href="https://www.slovensko.sk/sk/titulna-stranka" title="Slovensko" target="_blank" class="btn_see_it_live">Slovensko.sk</a>
+                        </div>
+                        <div class="col-md-4 item_text pprj">
+                            <h4>{{ 'projects.OVERVIEW' | translate }}:</h4>
+
+                            <p>{{ 'projects.svk.ABOUT' | translate }}
+                            </p>
+                            <h5>Year: <span>2013 - 2014</span></h5>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- end projects -->
+
+            <div id="contact">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>{{ 'CONTACT' | translate }}.</h2>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-5 item_text pprj" style="min-height: 150px">
+                            <div class="img_center">
+                                <img src="images/logo.png" alt="Branch logo" class="img-fluid" />
+                            </div>
+                        </div>
+                        <div class="col-md-5 item_text pprj">
+                            <div class="contact_social grid">
+                                <span><span class="address">&nbsp;</span>Lipová 441/70, 951 93 Topoľčianky</span>
+                                <span><span class="phone">&nbsp;</span><a href="tel:+421902102590">+421 902 102 590</a></span>
+                                <span><span class="email">&nbsp;</span><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#98;&#x72;&#x61;&#x6e;&#x69;&#x73;&#x6c;&#x61;&#x76;&#46;&#98;&#105;&#101;&#x6c;&#x69;&#107;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#109;">&#x62;&#114;&#x61;&#110;&#105;&#x73;&#x6c;&#97;&#x76;&#x2e;&#x62;&#105;&#101;&#x6c;&#x69;&#107;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;</a></span>
+                                <!--<a href="http://www.facebook.com/templatesbook" class="facebook ahref"></a>
+                            <a href="http://www.twitter.com/bomasmd" class="twitter ahref"></a>-->
+                                <a href="https://www.linkedin.com/in/branislav-bielik-18069925" class="linkedin ahref"></a>
+                                <!--<a href="#" class="gmail ahref"></a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="btn_top"></div>
+        </div>
+    </div>
+</div>
