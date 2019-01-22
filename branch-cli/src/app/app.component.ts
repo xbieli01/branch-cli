@@ -1,7 +1,7 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 
-declare var QueryLoader:any;
+//declare var QueryLoader:any;
 declare var JsJs:any;
 
 @Component({
@@ -26,7 +26,7 @@ export class AppComponent implements OnInit, AfterViewInit  {
   }
 
   ngAfterViewInit(): void {
-    QueryLoader.init(); 
+    //QueryLoader.init(); 
     JsJs.init();
   }
 
