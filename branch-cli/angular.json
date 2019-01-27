@@ -34,6 +34,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/tether/dist/js/tether.min.js",
               "src/js/jquery.backgroundposition.js",
               "src/js/jquery.smooth-scroll.js",
